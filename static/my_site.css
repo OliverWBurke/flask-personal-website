@@ -1,0 +1,35 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size:   14pt;
+}
+
+h1, h2, h3, h4, h5, h6, hr {
+  font-family: 'Cutive Mono', monospace;
+  font-size':  18pt;
+}
+
+.navbar-ul {
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.list-inline {
+  display: flex;
+  text-decoration: none;
+  justify-content: space-around;
+  margin:15px 0;
+  width: 50%;
+  list-style-type: none;
+}
+
+.navbar-ref {
+  color: #808080;
+  margin: 10px 10px;
+  font-family: 'Cutive Mono', sans-serif;
+}
+.navbar-ref:hover {
+  background-color: #808080;
+  color: #FFFFFF;
+}
