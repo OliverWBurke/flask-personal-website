@@ -1,19 +1,20 @@
 .timeline_company {
   float:left;
   width:100%;
-  margin-bottom:20px;
-  border-top:3px solid #f6f6f6;
+  border-bottom:3px solid #f6f6f6;
 }
-.timeline_company_header {
+.timeline_company_details {
   float:left;
   width:20%;
   height:100%;
 }
-.timeline_company_details {
+.timeline_role_details {
   float:right;
   width:80%;
-  margin-bottom:5px;
-  border-top:1px solid #f6f6f6;
+  border-bottom:1px solid #f6f6f6;
+}
+.timeline_role_details:hover {
+  background-color: #f6f6f6;
 }
 .indent_details {
   margin-left:20px;
