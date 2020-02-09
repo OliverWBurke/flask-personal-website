@@ -12,8 +12,9 @@ app = Flask(__name__)
 @app.route("/home")
 def home():
     page = "Home"
-    body_text = "Not much content here yet!"
-    return render_template("home.html", page_title=page, page_body_text=body_text)
+    with open(os.path.join(file_path, "static/page_data/home.json")) as home_file:
+        home = json.load(home_file)
+    return render_template("home.html", page_title=page, home=home)
 
 
 @app.route("/timeline")
@@ -31,7 +32,7 @@ def timeline():
 def projects():
     page = "Projects"
     body_text = "Not much content here yet!"
-    return render_template("home.html", page_title=page, page_body_text=body_text)
+    return render_template("simple.html", page_title=page, page_body_text=body_text)
 
 
 def add_descriptions(file):
