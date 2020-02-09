@@ -1,6 +1,9 @@
 from flask import Flask, render_template
 import json
 import requests
+import os
+import pathlib
+file_path = pathlib.Path(__file__).parent.absolute()
 app = Flask(__name__)
 
 
@@ -17,7 +20,7 @@ def home():
 @app.route("/timeline")
 def timeline():
     page = "Timeline"
-    with open ('static/page_data/timeline.json') as timeline_file:
+    with open (os.path.join(file_path,'static/page_data/timeline.json')) as timeline_file:
         timeline = json.load(timeline_file)
     timeline = add_descriptions(timeline)
     return render_template('timeline.html',
