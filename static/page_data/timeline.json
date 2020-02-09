@@ -1,0 +1,63 @@
+{
+    "PredictX": {
+        "start_date": "August 2014",
+        "end_date":"Present",
+        "roles": {
+            "Head of Data Engineering" : {
+                "start_date": "April 2019",
+                "end_date": "Present",
+                "role_description":"",
+                "role_responsibilities" :"",
+                "role_achievements":""
+            },
+            "Head of Analytical Product" : {
+                "start_date": "October 2016",
+                "end_date": "April 2019",
+                "role_description":"",
+                "role_responsibilities" :"",
+                "role_achievements":""
+            },
+            "Client Analyst" : {
+                "start_date": "August 2014",
+                "end_date": "October 2016",
+                "role_description":"I started at PredictX as a client analyst, dedicated to developing the travel reporting framework of one of our major clients in the Financial sector.",
+                "role_responsibilities" :"",
+                "role_achievements":""
+            }
+        }
+    },
+    "BCD Travel" : {
+        "start_date":"September 2011",
+        "end_date":"July 2014",
+        "roles" : {
+            "Supervisor OSS CDS": {
+                "start_date": "January 2013",
+                "end_date":"July 2014",
+                "role_description":"",
+                "role_responsibilities" :"",
+                "role_achievements":""
+            },
+            
+            "Data Analyst, Data Collection and Quality": {
+                "start_date": "September 2011",
+                "end_date":"January 2013",
+                "role_description":"As part of the Data Collection and Quality team I was responsible for working with our Global agencies and other third parties, to ensure that data was delivered and processed into the centralised data warehouse. I was responsible for maintaining and developing our data quality tools, and implementing new data feeds when required.",
+                "role_responsibilities" :"",
+                "role_achievements":""
+            }
+        }
+    },
+    "Ian Allan Travel" : {
+        "start_date":"October 2010",
+        "end_date":"September 2011",
+        "roles" : {
+            "Data Analyst": {
+                "start_date":"October 2010",
+                "end_date":"September 2011",
+                "role_description":"I worked as a Data Analyst, specialising in clients' management information reporting. I was responsible for maintaining the MI Database, running scheduled reports and creating new reports based on clients’ needs. I also worked closely with Account Managers, to ensure that they had the required data for discussions with clients.",
+                "role_responsibilities" :"",
+                "role_achievements":""
+            }
+        }
+    }
+}

@@ -6,25 +6,28 @@
         <title>Oliver Burke | {{ page_title }}</title>
         <link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Raleway&display=swap"
               rel="stylesheet">
-        <link href="static/my_site.css"
+        <link href="static/css/base.css"
               rel="stylesheet"/>
+              
+        {% block head %}
+        
+        {% endblock %}
     </head>
     
     <body>
-    
-        
-    <div class="navbar-ul">
-        <ul class="list-inline" id="navbar-list">
-            <li><a class="navbar-ref" href="/home">Home</a></li>
-            <li><a class="navbar-ref" href="/timeline">Timeline</a></li>
-            <li><a class="navbar-ref" href="/projects">Projects</a></li>
-        </ul>
-    </div>
-    
-    {% block body %}
-    
-    {% endblock %}
-    
+        <div class="navbar-ul">
+            <ul class="list-inline" id="navbar-list">
+                <li><a class="navbar-ref" href="/home">Home</a></li>
+                <li><a class="navbar-ref" href="/timeline">Timeline</a></li>
+                <li><a class="navbar-ref" href="/projects">Projects</a></li>
+            </ul>
+        </div>
+        <div class="main">
+            <h1> {{ page_title}} </h1>
+            {% block body %}
+            
+            {% endblock %}
+        </div>
     </body>
 
 </html>

@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+<link href="static/css/timeline.css"
+      rel="stylesheet"/>
+
+{% endblock %}
+
+{% block body %}
+
+{% for company, company_details in timeline.items() %}
+    <div class="timeline_company">
+        <div class="timeline_company_header">
+            <h2>{{ company }}</h2>
+            <p class="timeline_date">{{ company_details["start_date"] }} to {{ company_details["end_date"] }}</p>
+        </div>
+        {% for role, role_details in company_details["roles"].items() %}
+            <div class="timeline_company_details">
+                <h3>{{ role }}</h3>
+                <p  class="timeline_date">{{ role_details["start_date"] }} to {{ role_details["end_date"] }}</p>
+                <p > {{ role_details["role_description"] }} </p>
+            </div>
+        {% endfor %}
+    </div>
+{% endfor %}
+
+{% endblock %}
