@@ -20,11 +20,13 @@ def home():
 @app.route("/timeline")
 def timeline():
     page = "Timeline"
+    print(f"Opening {page}")
     with open(
         os.path.join(file_path, "static/page_data/timeline.json")
     ) as timeline_file:
         timeline = json.load(timeline_file)
-    timeline = add_descriptions(timeline)
+        print("loaded file")
+    #timeline = add_descriptions(timeline)
     return render_template("timeline.html", page_title=page, timeline=timeline)
 
 
