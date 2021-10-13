@@ -3,22 +3,27 @@
         "start_date": "August 2014",
         "end_date":"Present",
         "roles": {
-            "Head of Data Engineering<br>" : {
-                "start_date": "April 2019",
+            "Product Owner, Data Platform" : {
+                "start_date": "January 2020",
                 "end_date": "Present",
-                "role_description":"",
+                "role_description": "Blah Blah",
+                "role_responsibilities": "Blah Blah Blah",
+                "role_achievements":{
+                    "blah": "blah blah",
+                    "more blah": "more blah blah"
+                }
+
+            },
+            "Head of Analytical Product | Head of Data Engineering" : {
+                "start_date": "October 2016",
+                "end_date": "January 2020",
+                "role_description":"I took the lead in setting up the Analytical Product team at PredictX in 2016, which became the Data Engineering team in 2019.",
                 "role_responsibilities" :"",
                 "role_achievements":{
-                    "blah": "blah blah"
+                    "New Data Pipeline Tool": "Designing and building our new data pipeline tool",
+                    "Forecasting Module": "Working with Data Science team to implement a new forecasting module, allowing our clients to forecast their travel and expense spend.",
+                    "Team Building": "Building up our Data Engineering team, particularly mentoring business analysts who wanted to become data engineers."
                 }
-            },
-            "Head of Analytical Product" : {
-                "start_date": "October 2016",
-                "end_date": "April 2019",
-                "role_description":"",
-                "role_responsibilities" :"",
-                "role_achievements": {
-                    "blah": "blah blah"}
             },
             "Client Analyst" : {
                 "start_date": "August 2014",
@@ -26,7 +31,9 @@
                 "role_description":"I started at PredictX as a client analyst, dedicated to developing the travel reporting framework of one of our major clients in the Financial sector.",
                 "role_responsibilities" :"",
                 "role_achievements":{
-                    "blah": "blah blah"}
+                    "Self Service Reporting Platform": "I designed and developed a self-service reporting platform, to provide direct data access to all areas within the business. The project involved working with stakeholders from across the business to ensure that the solution met the various needs of the different users. I also had to ensure that we had detailed user guides, and conducted training sessions for their global user base. The solution is still in use with over 300 users.",
+                    "Real Time Data Feed": "I lead a project to integrate real time \"pre trip\" data to the reporting platform, enabling cost saving decisions to be made within days. We developed a data pipeline in python connecting to an API provided by a third party."
+                }
             }
         }
     },
