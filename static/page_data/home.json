@@ -1,9 +1,8 @@
 {
     "about" : [
-        "Dummy test1. This is one paragraph",
-        "Dummy test2. This is one paragraph",
-        "Dummy test3. This is one paragraph",
-        "Dummy test4. This is one paragraph"
+        "I am an experienced Product Owner and Data Engineer, and have worked across different business domains, from Travel and Retail to Healthcare.",
+        "I am passionate about designing and building solutions using data to deliver real business value.",
+        "I have extensive expertise managing cross functional teams, including data scientists, engineers and infrastructure teams to deliver impactful data products."
     ],
     "picture":"/static/images/oliver_small_colour.jpg",
     "links" : {
