@@ -3,33 +3,43 @@
         "start_date": "August 2014",
         "end_date":"Present",
         "roles": {
-            "Product Owner, Data Platform" : {
+            "Director, Product Owner of Data Platform" : {
                 "start_date": "January 2020",
                 "end_date": "Present",
-                "role_description": "Blah Blah",
-                "role_responsibilities": "Blah Blah Blah",
-                "role_achievements":{
-                    "blah": "blah blah",
-                    "more blah": "more blah blah"
-                }
+                "role_description": [
+                    "I have driven the vision and development of our “Pylot” data management product from MVP stage to a fully fledged product, and I am responsible for the ongoing strategy and delivery of the product.",
+                    "Pylot allows us to collect data from a variety of sources and formats; ensure all data passes our extensive validation routines; and persist this in an appropriate storage system. Pylot allows a variety of users to connect to this data, such as Data Scientists to build, train and deploy models; our Engineering team, for use in our frontend reporting tool; or Analysts to provide additional insights for our clients.",
+                    "My responsibilities also cover managing the infrastructure that we use to deliver all of our products, and ensuring that we have a scalable and repeatable deployment process, which we have built based on a GitOps style workflow. I also lead our migration from Rancher to Kubernetes, and work closely with the Ops and Devops teams to ensure that our infrastructure can meet the evolving needs of our business and clients.",
+                    "When we recently won a major techology company as a client, I lead the successful implementation onto our platform. This was a complex project under tight timelines, and the first time we have deployed our entire platform onto GCP. I collaborated with multiple teams within PredictX, as well as technical and commercial stakeholders at the client."
+                ],
+                "role_responsibilities": {
+                    "Strategy": "Managing and prioritising the product roadmap, ensuring this supports PredictX’s strategic goals.",
+                    "Prioritisation": "Working with the Data Engineering team to manage and prioritise the backlog, ensuring that requirements are well defined and understood, and that any blockers can be resolved quickly during the sprint cycle.",
+                    "Collaboration": "Collaborating with other members of the product team, to ensure that Pylot is able to support the needs of our other products, and that we are best utilising engineering resources across the company.",
+                    "Presenting": "Running frequent demonstration sessions showing new developments to different stakeholders.",
+                    "Gathering Requirements": "Leading workshops with users to understand how Pylot is being used to guide future developments."
+                },
+                "role_achievements":{ }
 
             },
             "Head of Analytical Product | Head of Data Engineering" : {
                 "start_date": "October 2016",
                 "end_date": "January 2020",
-                "role_description":"I took the lead in setting up the Analytical Product team at PredictX in 2016, which became the Data Engineering team in 2019.",
-                "role_responsibilities" :"",
+                "role_description":[
+                    "I took the lead in setting up the Analytical Product team at PredictX, and then the Data Engineering team following a company restructure in 2019. We were responsible for building and maintaining the ETL processes across all of our product lines, utilising a mix of tools and processes built in house, and integrating third party applications where needed."
+                ],
+                "role_responsibilities" :{},
                 "role_achievements":{
-                    "New Data Pipeline Tool": "Designing and building our new data pipeline tool",
+                    "New Data Pipeline Tool": "I lead a small team on a 3 month project to design and develop an MVP to evolve the way we internally manage data. This team included members from our Data Engineering, Data Science, Software Engineering, QA, Infrastructure and Design teams. This MVP has since grown into the “Pylot” product that I am now the Product Owner of.",
                     "Forecasting Module": "Working with Data Science team to implement a new forecasting module, allowing our clients to forecast their travel and expense spend.",
-                    "Team Building": "Building up our Data Engineering team, particularly mentoring business analysts who wanted to become data engineers."
+                    "Data Engineering Team ": "Building up our Data Engineering team, particularly mentoring business analysts who wanted to become data engineers. I was also responsible for managing the end to end hiring process when we needed skills that did not already have on the team."
                 }
             },
             "Client Analyst" : {
                 "start_date": "August 2014",
                 "end_date": "October 2016",
-                "role_description":"I started at PredictX as a client analyst, dedicated to developing the travel reporting framework of one of our major clients in the Financial sector.",
-                "role_responsibilities" :"",
+                "role_description":["I started at PredictX as the first client analyst at the company, during a period of rapid growth in their client base, particularly in the travel space. I was dedicated to developing the global travel reporting framework for a major financial institution."],
+                "role_responsibilities" :{},
                 "role_achievements":{
                     "Self Service Reporting Platform": "I designed and developed a self-service reporting platform, to provide direct data access to all areas within the business. The project involved working with stakeholders from across the business to ensure that the solution met the various needs of the different users. I also had to ensure that we had detailed user guides, and conducted training sessions for their global user base. The solution is still in use with over 300 users.",
                     "Real Time Data Feed": "I lead a project to integrate real time \"pre trip\" data to the reporting platform, enabling cost saving decisions to be made within days. We developed a data pipeline in python connecting to an API provided by a third party."
@@ -44,19 +54,17 @@
             "Supervisor OSS CDS": {
                 "start_date": "January 2013",
                 "end_date":"July 2014",
-                "role_description":"",
-                "role_responsibilities" :"",
-                "role_achievements":{
-                    "blah": "blah blah"}
+                "role_description":["I was promoted to a supervisor of the technical support team. I was a key member of the team rolling out a new global MI and security reporting platform. This involved extensive requirements gathering and training for users across Europe. I was awarded a place in the BCD peer recognition program in 2013, alongside the top 1% of all employees."],
+                "role_responsibilities" :{},
+                "role_achievements":{}
             },
             
             "Data Analyst, Data Collection and Quality": {
                 "start_date": "September 2011",
                 "end_date":"January 2013",
-                "role_description":"As part of the Data Collection and Quality team I was responsible for working with our Global agencies and other third parties, to ensure that data was delivered and processed into the centralised data warehouse. I was responsible for maintaining and developing our data quality tools, and implementing new data feeds when required.",
-                "role_responsibilities" :"",
-                "role_achievements": {
-                    "blah": "blah blah"}
+                "role_description":["As part of the Data Collection and Quality team I was responsible for working with our Global agencies and other third parties, to ensure that data was delivered and processed into the centralised data warehouse. I was responsible for maintaining and developing our data quality tools, and implementing new data feeds when required."],
+                "role_responsibilities" :{},
+                "role_achievements": { }
             }
         }
     },
@@ -67,10 +75,9 @@
             "Data Analyst": {
                 "start_date":"October 2010",
                 "end_date":"September 2011",
-                "role_description":"I worked as a Data Analyst, specialising in clients' management information reporting. I was responsible for maintaining the MI Database, running scheduled reports and creating new reports based on clients’ needs. I also worked closely with Account Managers, to ensure that they had the required data for discussions with clients.",
-                "role_responsibilities" :"",
-                "role_achievements":{
-                    "blah": "blah blah"}
+                "role_description":["I worked as a Data Analyst, specialising in clients' management information reporting. I was responsible for maintaining the MI Database, running scheduled reports and creating new reports based on clients’ needs. I also worked closely with Account Managers, to ensure that they had the required data for discussions with clients."],
+                "role_responsibilities" :{},
+                "role_achievements":{}
             }
         }
     }
