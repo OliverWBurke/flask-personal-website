@@ -8,12 +8,12 @@
               rel="stylesheet">
         <link href="static/css/base.css"
               rel="stylesheet"/>
-              
+
         {% block head %}
-        
+
         {% endblock %}
     </head>
-    
+
     <body>
         <div class="navbar-ul">
             <h1 class="page-title"> {{ page_title}} </h1>
@@ -22,10 +22,10 @@
                 <li><a class="navbar-ref" href="/timeline">Timeline</a></li>
             </ul>
         </div>
-        
+
         <div class="main">
             {% block body %}
-            
+
             {% endblock %}
         </div>
         <div class="footer">

@@ -26,7 +26,7 @@ def timeline():
     ) as timeline_file:
         timeline = json.load(timeline_file)
         print("loaded file")
-    #timeline = add_descriptions(timeline)
+    # timeline = add_descriptions(timeline)
     return render_template("timeline.html", page_title=page, timeline=timeline)
 
 
